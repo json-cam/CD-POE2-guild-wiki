@@ -1,0 +1,14 @@
+[build]
+  # Netlify automatically detects 'bun.lock' and uses Bun
+  command = "bun run docs:build"
+  publish = ".vitepress/dist"
+
+[build.environment]
+  # Ensures Netlify uses a modern version of Bun
+  BUN_VERSION = "latest"
+
+[[redirects]]
+  # This fixes the "refreshing a page gives 404" issue with clean URLs
+  from = "/*"
+  to = "/index.html"
+  status = 200
