@@ -7,7 +7,7 @@ hero:
   text: "Guild Resource Hub, for all things related to Path of Exile 2."
   tagline: A curated knowledge base by Exiles, for Exiles.
   image:
-    src: ./public/logo-2x.webp
+    src: /logo-2x.webp
     alt: PoE2 Logo
   actions:
     - theme: brand
