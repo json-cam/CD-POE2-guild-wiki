@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@vitest/ui": "^4.0.18",
+    "@vue/test-utils": "^2.4.6",
+    "fast-check": "^4.5.3",
+    "happy-dom": "^20.6.0",
+    "vitepress": "^2.0.0-alpha.16",
+    "vitest": "^4.0.18"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "dependencies": {
+    "jsdom": "^28.0.0",
+    "vue-pdf-embed": "^2.1.3"
+  }
+}
