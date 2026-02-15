@@ -29,7 +29,7 @@ features:
 ## 📝 Latest PoE2 Patch Notes
 
 <LinkCard 
-  title="Patch Notes 0.1.4b" 
+  title="0.4.0e Patch Notes" 
   desc="Hotfix for Ranger skill visual bugs and Act 2 balance changes."
   link="https://www.pathofexile.com/forum/view-thread/3911322"
   icon="⚖️"
